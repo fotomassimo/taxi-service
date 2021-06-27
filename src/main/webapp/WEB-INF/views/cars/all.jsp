@@ -1,5 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <style>
     <%@include file='/WEB-INF/views/css/table_dark.css' %>
 </style>
@@ -16,6 +16,7 @@
                 <th>Manufacturer name</th>
                 <th>Manufacturer country</th>
                 <th>Drivers</th>
+                <th>Add a driver</th>
                 <th>Delete</th>
             </tr>
             <c:forEach var="car" items="${cars}">
@@ -38,10 +39,14 @@
                         </c:forEach>
                     </td>
                     <td>
+                        <a href="${pageContext.request.contextPath}/cars/drivers/add">add a driver</a>
+                    </td>
+                    <td>
                         <a href="${pageContext.request.contextPath}/cars/delete?id=${car.id}">DELETE</a>
                     </td>
                 </tr>
             </c:forEach>
         </table>
+        <h4><a href="${pageContext.request.contextPath}/index">Return to main menu</a></h4>
     </body>
 </html>

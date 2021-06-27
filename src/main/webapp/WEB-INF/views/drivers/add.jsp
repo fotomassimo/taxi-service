@@ -1,5 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <style>
     <%@include file='/WEB-INF/views/css/table_dark.css' %>
 </style>
@@ -21,19 +21,19 @@
             </tr>
             <tr>
                 <td>
-                    <input type="text" name="first_name" form="driver" required>
+                    <input type="text" name="first_name" maxlength="255" form="driver" required>
                 </td>
                 <td>
-                    <input type="text" name="last_name" form="driver" required>
+                    <input type="text" name="last_name" maxlength="255" form="driver" required>
                 </td>
                 <td>
-                    <input type="text" name="license_number" form="driver" required>
+                    <input type="text" name="license_number" maxlength="255" form="driver" required>
                 </td>
                 <td>
-                    <input type="text" name="login" form="driver" required>
+                    <input type="text" name="login" maxlength="25" form="driver" required>
                 </td>
                 <td>
-                    <input type="password" name="password" form="driver" required>
+                    <input type="password" name="password" maxlength="255" form="driver" required>
                 </td>
                 <td>
                     <input type="submit" name="add" form="driver">
