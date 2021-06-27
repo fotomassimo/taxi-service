@@ -1,3 +1,6 @@
+DROP SCHEMA IF EXISTS `taxi_app`;
+CREATE SCHEMA `taxi_app`;
+USE `taxi_app`;
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
