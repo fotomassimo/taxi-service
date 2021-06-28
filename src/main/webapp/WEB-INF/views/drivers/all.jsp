@@ -41,6 +41,7 @@
                 </tr>
             </c:forEach>
         </table>
+        <h4><a href="${pageContext.request.contextPath}/drivers/add">Add a new driver</a></h4>
         <h4><a href="${pageContext.request.contextPath}/index">Return to main menu</a></h4>
     </body>
 </html>

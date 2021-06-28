@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="info">
     <Properties>
-        <Property name="logdir">C:\</Property>
+        <Property name="logdir">C:\Users</Property>
         <property name="pattern" value="%d %p %c.%M:%L - %m%n"/>
     </Properties>
     <Appenders>

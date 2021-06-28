@@ -24,16 +24,8 @@ public class Manufacturer {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getCountry() {
         return country;
-    }
-
-    public void setCountry(String country) {
-        this.country = country;
     }
 
     @Override
@@ -53,5 +45,14 @@ public class Manufacturer {
     @Override
     public int hashCode() {
         return Objects.hash(id, name, country);
+    }
+
+    @Override
+    public String toString() {
+        return "Manufacturer{"
+                + " id=" + id
+                + ", name='" + name + '\''
+                + ", country='" + country + '\''
+                + '}';
     }
 }
