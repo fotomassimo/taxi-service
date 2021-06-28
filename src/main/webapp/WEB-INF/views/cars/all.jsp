@@ -47,6 +47,7 @@
                 </tr>
             </c:forEach>
         </table>
+        <h4><a href="${pageContext.request.contextPath}/cars/add">Add a new car</a></h4>
         <h4><a href="${pageContext.request.contextPath}/index">Return to main menu</a></h4>
     </body>
 </html>
