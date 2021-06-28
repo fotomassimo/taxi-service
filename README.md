@@ -7,20 +7,20 @@ system.
 
 #Technologies
 A list of technologies used within the project:
+  * Apache Maven v.3.6.3
+  * Apache Log4j2
+  * Git v2.30.1
   * HTML
+  * IntelliJ IDEA 2021.1.1 (Ultimate Edition)
   * JDBC
   * JDK 11  
   * JSP 
   * JSTL 
-  * SQL
-  * Apache Maven v.3.6.3
   * Library javax.servlet v. 4.0.1
-  * MySQL 8.0  
+  * MySQL 8.0
+  * OS Windows 8.1
+  * SQL
   * Tomcat v.9.0.46
-  * Apache Log4j2  
-  * IntelliJ IDEA 2021.1.1 (Ultimate Edition)
-  * Git v2.30.1
-  * OS Windows 8.1 
 
 #Installation
 Application can be launched on a computer that has JRE (JDK 11), IDE, Maven, Tomcat and MySQL Workbench 
@@ -76,4 +76,3 @@ to use the main menu with different options:
 The diagram below describes the key classes of objects that we can create and manage in this 
 application, their parameters and relations between them. 
 ![img.png](img.png)
-
