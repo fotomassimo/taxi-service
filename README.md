@@ -47,9 +47,9 @@ To deploy the project on your computer using IntelliJ IDEA:
   credentials from your MySQL connection.
 
 5.Setup logger log4j2: Open file `src/main/resources/log4j2.xml` in this project using IDE and set 
-  value `<Property name="logdir">` as an absolute path of this project directory on your computer or
-  any custom directory, where you can locate log files. By default, this logger keep records of 
-  user's unsuccessful authentication attempts.
+  value `<Property name="logdir">` as an absolute path of this project directory on your computer 
+  (i.e. `C:\Users\MyUser\IdeaProjects\taxi-service`) or any custom directory, where you want to locate 
+  log files. This logger is used to keep records of user's unsuccessful authentication attempts.
 
 6.Deploy the project on the web server using IDE: `Run`->`Run`(or press `Shift+F10` on Windows).
    
