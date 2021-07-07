@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="info">
     <Properties>
-        <Property name="logdir">C:\Users</Property>
+        <Property name="logdir">C:\</Property>
         <property name="pattern" value="%d %p %c.%M:%L - %m%n"/>
     </Properties>
     <Appenders>
         <RollingFile name="LogToFile"
-                     fileName="${logdir}\logs\log.txt"
-                     filePattern="${logdir}\logs\%d{yyyy-MM-dd}-%i.log">>
+                     fileName="${logdir}logs\log.txt"
+                     filePattern="${logdir}logs\%d{yyyy-MM-dd}-%i.log">>
             <PatternLayout pattern="${pattern}"/>
             <Policies>
                 <SizeBasedTriggeringPolicy size="1 MB" />
